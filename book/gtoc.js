@@ -1,6 +1,12 @@
-require(["gitbook","gitbook/plugins/gitbook-plugin-gtoc/mod/content",
-         "gitbook/plugins/gitbook-plugin-gtoc/mod/interaction",
-         "gitbook/plugins/gitbook-plugin-gtoc/mod/elevator"
+var requirejs = require("requirejs");
+
+requirejs.config({
+    "baseUrl":document.currentScript.src.replace('gtoc.js', 'mod/')
+})
+
+requirejs(["gitbook","gitbook-plugin-gtoc/mod/content",
+         "gitbook-plugin-gtoc/mod/interaction",
+         "gitbook-plugin-gtoc/mod/elevator"
          ], 
         function(gitbook,content,action,elevator) {
 
