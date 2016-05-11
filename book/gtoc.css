@@ -71,7 +71,7 @@
   background-color: #f7f1dc;
 }
 .color-theme-2 .gitbook-table-of-contents {
-  background-color: #2b2b2b;
+  background-color: #000000;
 }
 .state-scroll .gitbook-table-of-contents {
   overflow-y: scroll;
@@ -115,11 +115,11 @@
 .gitbook-table-of-contents .gtoc-level-h2 {
   padding-left: 15px;
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .gitbook-table-of-contents .gtoc-level-h2,
 .gitbook-table-of-contents .gtoc-level-h2:active {
-  color: #ea5414;
+  color: #000000;
 }
 .gitbook-table-of-contents .gtoc-level-h3 {
   padding-left: 39px;
@@ -128,7 +128,16 @@
 }
 .gitbook-table-of-contents .gtoc-level-h3,
 .gitbook-table-of-contents .gtoc-level-h3:active {
-  color: #2DA7E0;
+  color: #000000;
+}
+.gitbook-table-of-contents .gtoc-level-h4 {
+  padding-left: 54px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.gitbook-table-of-contents .gtoc-level-h4,
+.gitbook-table-of-contents .gtoc-level-h4:active {
+  color: #000000;
 }
 .gitbook-table-of-contents .icon-shrink {
   position: absolute;
