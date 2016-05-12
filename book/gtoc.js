@@ -57,7 +57,8 @@ function(gitbook) {
         // 使用jQuery的guid保证唯一
         nId = "gtoc-title-" + ($.guid++); //创建新的hrefID
         el.attr("id", nId); // 重新给节点赋值Id
-        el.addClass("gtoc-header");
+        el.addClass("chapter");
+        el.text(titleLevel.order + " " + title);
 
         // 每一行链接的字符串，使用tagName创建层级类名
         newLine = "<a href='#" + nId + "' class='gtoc-level gtoc-level-" + name + "'>" + "<i class='levelNum'>" + titleLevel.order + ". </i>" + title + "</a>";
