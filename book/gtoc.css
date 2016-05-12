@@ -44,6 +44,7 @@
 .gitbook-table-of-contents {
   padding: 0 15px 15px 15px;
   background-color: #ffffff;
+  font-family:"微软雅黑","黑体","宋体";
   right: 20px;
   border: 1px solid #c9caca;
   border-top: 5px solid #ea5414;
@@ -52,6 +53,7 @@
   max-height: 100%;
   zoom: 1;
   filter: alpha(opacity=100);
+  -wekit-fot-moothig: antialiased;
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
@@ -114,7 +116,7 @@
 }
 .gitbook-table-of-contents .gtoc-level-h2 {
   padding-left: 15px;
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 5px;
 }
 .gitbook-table-of-contents .gtoc-level-h2,
@@ -132,7 +134,7 @@
 }
 .gitbook-table-of-contents .gtoc-level-h4 {
   padding-left: 54px;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 5px;
 }
 .gitbook-table-of-contents .gtoc-level-h4,
