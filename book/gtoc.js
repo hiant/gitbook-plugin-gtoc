@@ -16,7 +16,6 @@ function(gitbook) {
      * @return {[String]}       返回更新之后的level对象, e.g. {"l1":2,"l2":1,"order":"2.1"}
      */
     var updateLevel = function(name, level) {
-        console.log(level);
         if (name === "h2") {
             level.l1 += 1;
             if (level.l2 > 0) {
